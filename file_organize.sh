@@ -15,8 +15,7 @@ cat << EOF
 ./file_organize.sh /source/dir
 	or 
 ./file_organize.sh
-
-list Sappurt Format : 
+Supported media formats : 
 	mp3 / flac / opus >> music
 	mp4 / mov / 	>> video
 	zip / tar / rar >> compression
