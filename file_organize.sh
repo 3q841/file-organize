@@ -16,10 +16,11 @@ cat << EOF
 	or 
 ./file_organize.sh
 Supported media formats : 
-	mp3 / flac / opus >> music
-	mp4 / mov / 	>> video
-	zip / tar / rar >> compression
-	jpg / png / gif >> picture
+	mp3 / flac / opus 	>> music
+	mp4 / mov / avi		>> video
+	zip / tar / rar 	>> compression
+	jpg / png / 		>> image
+	pdf / docx / odt / epub >> pdf
 		
 EOF
 }
