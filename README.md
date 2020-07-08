@@ -7,7 +7,7 @@ Simple `bash` script to **Orgnaize file** in the Directory
 
 ### How to use
 
-![gif](https://github.com/3q841/amini-shell/raw/master/file_organize.gif) <br /> 
+![gif](https://github.com/3q841/file-organize/raw/master/usage.gif) <br /> 
 
 ### FYI
 
