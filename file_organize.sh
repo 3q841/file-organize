@@ -4,6 +4,7 @@ if ! command -v rename &> /dev/null; then
 	echo -e "Can't find rename package.\nexample : apt install rename "
 	exit 1
 fi
+read -p "Warning: Be careful when using this script :)"
 
 # Variable 
 src_dir="${1:-$(dirname $0)}"
@@ -33,7 +34,7 @@ find "$src_dir" -name "* *" -type f | rename 's/ /_/g'
 fname=$(ls -p "$src_dir"| grep -v / )
 sleep 4
 
-mkdir -p "$src_dir/music" "$src_dir/images" "$src_dir/videos" "$src_dir/pdf" "$src_dir/compresion"
+mkdir -p "$src_dir/{music,images,videos,pdf,compresion}
 
 readarray name -t <<< $fname
 
